@@ -207,6 +207,22 @@ namespace UnitTests
             // Assert
             Assert.AreEqual(0, result.AverageRating());
         }
+
+        [TestMethod]
+        public void ProductModel_AverageRatingg_With_Zero_Item_Zero_Should_Pass()
+        {
+            // Arrange
+            var result = new ProductModel();
+
+
+            // Act
+            
+                result.Ratings = new int[0];
+
+           
+            // Assert
+            Assert.AreEqual(0, result.AverageRating());
+        }
     }
 }
 
