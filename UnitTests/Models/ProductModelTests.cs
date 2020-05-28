@@ -176,7 +176,7 @@ namespace UnitTests
         }
 
         [TestMethod]
-        public void ProductModel_AverageRatingg_With_Null_Ratings_Zero_Should_Pass()
+        public void ProductModel_AverageRatings_With_Null_Ratings_Zero_Should_Pass()
         {
             // Arrange
             var result = new ProductModel();
@@ -190,7 +190,7 @@ namespace UnitTests
         }
 
         [TestMethod]
-        public void ProductModel_AverageRatingg_With_Zero_Total_Ratings_Zero_Should_Pass()
+        public void ProductModel_AverageRatings_With_Zero_Total_Ratings_Zero_Should_Pass()
         {
             // Arrange
             var result = new ProductModel();
@@ -209,7 +209,7 @@ namespace UnitTests
         }
 
         [TestMethod]
-        public void ProductModel_AverageRatingg_With_Zero_Item_Zero_Should_Pass()
+        public void ProductModel_AverageRatings_With_NO_Items_Zero_Should_Pass()
         {
             // Arrange
             var result = new ProductModel();
